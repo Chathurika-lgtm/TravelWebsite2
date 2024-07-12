@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Sri Lanka Elephant</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel in Sri Lanka</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="vedio4.mp4" muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Discover Sri Lanka's Elephant </h2>
+            <p>Explore the captivating world of Sri Lankan elephants at ElephantWonders.
+                 Immerse yourself in their lush landscapes, discovering the natural beauty that defines their home.
+                 Go beyond the ordinary with ElephantWonders. We're dedicated to showcasing the majestic beauty of these creatures 
+                 while promoting responsible tourism and contributing to vital conservation efforts.         
+            </p>
+            <a href="toursandActivities.html">Explore</a>
+        </div>
+       
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li><br>
+            <li><a href="aboutSriLankanElephant.html">About Sri Lankan Elephants</a></li><br>
+            <li><a href="conservation.html">Conservation</a></li><br>
+            <li><a href="toursandActivities.html">Tours and Activities</a></li><br>
+            <li><a href="responsibleTourism.html">Responsible Tourism</a></li><br>
+            <li><a href="gallery.html">Gallery</a></li><br>
+            <li><a href="resources.html">Resources</a></li><br>
+            <li><a href="#">Social Media Links</a></li><br>
+        </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+      
+      menuToggle.addEventListener('click', () =>{
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+</body>
+</html>
